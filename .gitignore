@@ -1,0 +1,5 @@
+.svn/
+etherdream_source/
+*.suo
+*.sdf
+diagnostic_tool/sitter.exe

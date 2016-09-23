@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netherdream", "netherdream\netherdream.vcxproj", "{9942E787-34E1-4597-9FA7-C2F195C03CA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netherdreamexampleapp", "netherdreamexampleapp\netherdreamexampleapp.vcxproj", "{9CD46159-0FD0-4EAA-A4A1-E256FB61668C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9942E787-34E1-4597-9FA7-C2F195C03CA7} = {9942E787-34E1-4597-9FA7-C2F195C03CA7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9942E787-34E1-4597-9FA7-C2F195C03CA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9942E787-34E1-4597-9FA7-C2F195C03CA7}.Debug|Win32.Build.0 = Debug|Win32
+		{9942E787-34E1-4597-9FA7-C2F195C03CA7}.Release|Win32.ActiveCfg = Release|Win32
+		{9942E787-34E1-4597-9FA7-C2F195C03CA7}.Release|Win32.Build.0 = Release|Win32
+		{9CD46159-0FD0-4EAA-A4A1-E256FB61668C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9CD46159-0FD0-4EAA-A4A1-E256FB61668C}.Debug|Win32.Build.0 = Debug|Win32
+		{9CD46159-0FD0-4EAA-A4A1-E256FB61668C}.Release|Win32.ActiveCfg = Release|Win32
+		{9CD46159-0FD0-4EAA-A4A1-E256FB61668C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
