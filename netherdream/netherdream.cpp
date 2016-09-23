@@ -125,7 +125,6 @@ bool netherdream::LoadEtherDreamLib()
 {
 #ifdef _WIN32
 	EtherDreamDLL = LoadLibrary(sEtherDLL.c_str());
-#endif // _WIN32
 	if(EtherDreamDLL == nullptr)
 	{
 		std::cout << "Unable to load dll: " << sEtherDLL << " ,is it in a PATH related directory?\n";
@@ -140,7 +139,13 @@ bool netherdream::LoadEtherDreamLib()
 		std::cout << "Unable to bind dll: " << sEtherDLL << "\n";
 		FreeLibrary(EtherDreamDLL);
 	}
-	return sIsLoaded;
+    
+#else
+    sIsLoaded = false;
+    std::cout << sEtherDLL << " not supported for your platform" << "\n";
+#endif // _WIN32
+    
+    return sIsLoaded;
 }
 
 
