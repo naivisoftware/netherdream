@@ -3,3 +3,8 @@ etherdream_source/
 *.suo
 *.sdf
 diagnostic_tool/sitter.exe
+*.idb
+*.tlog
+*.log
+*.obj
+*.pdb
