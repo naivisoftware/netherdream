@@ -8,3 +8,4 @@ diagnostic_tool/sitter.exe
 *.log
 *.obj
 *.pdb
+netherdream.VC.db
